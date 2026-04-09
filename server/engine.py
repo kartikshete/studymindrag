@@ -208,4 +208,4 @@ class RAGEngine:
         except Exception as e:
             logger.error(f"RAG query failed: {e}")
             return self._keyword_search(query) # Fallback to keyword search on API error
-                                                  
+                                                   
