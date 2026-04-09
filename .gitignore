@@ -15,4 +15,4 @@ vectordb/
 .DS_Store
 *.faiss
 *.pkl
-   
+    
