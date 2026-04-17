@@ -4,6 +4,29 @@ A production-ready, full-stack Retrieval-Augmented Generation (RAG) platform. St
 
 ---
 
+## 🏗️ Architecture Overview
+
+```mermaid
+graph TD
+    A[User Document: PDF/DOCX/TXT] --> B[FastAPI Backend]
+    B --> C{API Key Present?}
+    C -- Yes --> D[LangChain Embeddings]
+    D --> E[FAISS Vector Store]
+    C -- No --> F[Precise Keyword Engine]
+    
+    G[User Query] --> H[Retrieval Logic]
+    H --> I{Mode?}
+    I -- Semantic --> E
+    I -- Keyword --> F
+    
+    E --> J[Context Augmented Prompt]
+    F --> J
+    J --> K[OpenAI GPT-4o-mini]
+    K --> L[Structured AI Response]
+    L --> M[Next.js B&W UI]
+    M --> N[Saved Notebook]
+```
+
 ## 🔥 Key Features
 
 - 🎯 **Context-Aware Grounding**: strictly grounded AI responses. If the answer isn't in your notes, the AI won't hallucinate.
