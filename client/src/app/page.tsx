@@ -25,7 +25,7 @@ interface Document {
   chunks: number;
 }
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://studymind-backendstudymind.onrender.com";
 
 export default function StudyMind() {
   const [messages, setMessages] = useState<Message[]>([
