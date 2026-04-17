@@ -1,5 +1,7 @@
 # StudyMind AI 🧠
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kartikshete/studymindrag)
+
 A production-ready, full-stack Retrieval-Augmented Generation (RAG) platform. StudyMind AI transforms your scattered notes into an interactive, intelligent knowledge base. Talk to your documents, extract insights, and save key snippets—all through a minimalist, high-performance interface.
 
 ---
