@@ -38,7 +38,7 @@ graph TD
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack:
 
 - **Frontend**: Next.js 15 (App Router), Tailwind CSS v4, Framer Motion, Lucide React.
 - **Backend**: FastAPI (Python 3.9+), LangChain, FAISS Vector DB.
@@ -49,7 +49,7 @@ graph TD
 
 ## 🚀 Documentation Workflow
 
-### 1. Initial Setup
+### 1. Initial Setup:
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/studymind-ai.git
