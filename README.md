@@ -25,7 +25,7 @@ graph TD
     K --> L[Structured AI Response]
     L --> M[Next.js B&W UI]
     M --> N[Saved Notebook]
-```
+``` 
 
 ## 🔥 Key Features
 
