@@ -4,7 +4,7 @@ A production-ready, full-stack Retrieval-Augmented Generation (RAG) platform. St
 
 ---
 
-## 🏗️ Architecture Overview
+## 🏗️ Architecture Overview:
 
 ```mermaid
 graph TD
